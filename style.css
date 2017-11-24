@@ -1,0 +1,51 @@
+
+
+.jumbotron{
+	margin-top:60px;
+	background-image:url('https://www.blackstonemedia.com/wp-content/uploads/2017/07/iStock-627045246.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    min-height:500px;
+	color:#fff;
+	margin-bottom: 20px;   
+}
+
+.jumbotron p{
+	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+	font-size: 18px;
+}
+
+.featurette-divider{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.lead{
+	text-align: justify;
+}
+
+.row-custom{
+	padding-left: 50px;
+	padding right:50px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row-custom-contact{
+	margin-top:30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+.col-md-12{
+	padding:0;
+}
+
+.contact{
+	background-color: #000;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
