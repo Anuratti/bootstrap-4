@@ -1,7 +1,7 @@
 
 
 .jumbotron{
-	margin-top:60px;
+	margin-top:50px;
 	background-image:url('https://www.blackstonemedia.com/wp-content/uploads/2017/07/iStock-627045246.jpg');
     background-position:center;
     background-size:cover;
@@ -17,6 +17,11 @@
 .jumbotron p{
 	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 	font-size: 18px;
+
+}
+
+.jumbotron .display-3{
+	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 }
 
 .featurette-divider{
