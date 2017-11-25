@@ -1,18 +1,9 @@
 
 
 .jumbotron{
-	margin-top:60px;
-	background-image:url('https://www.blackstonemedia.com/wp-content/uploads/2017/07/iStock-627045246.jpg');
-    
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    min-height:500px;
-	color:#fff;
-	margin-bottom: 20px;  
-	margin-left:0;
-	margin-right:0; 
 	
+	
+
 }
 
 .jumbotron p{
