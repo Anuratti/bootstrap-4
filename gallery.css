@@ -16,8 +16,9 @@
     color: #000;
 }
 
-.tz-gallery {
-    padding: 1px;
+.col-sm-6{
+	padding-left: 1px;
+	padding-right:1px;
 }
 
 .tz-gallery .thumbnail {
