@@ -17,7 +17,7 @@
 }
 
 .tz-gallery {
-    padding: 40px;
+    padding: 1px;
 }
 
 .tz-gallery .thumbnail {
@@ -54,4 +54,8 @@
 
 .baguetteBox-button {
     background-color: transparent !important;
+}
+
+.text-center{
+	padding-bottom: 10px;
 }
