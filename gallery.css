@@ -21,6 +21,12 @@
 	padding-right:3px;
 }
 
+#linkmain{
+	display:block;
+	margin-top: 10px;
+}
+
+
 .tz-gallery .thumbnail {
     padding: 0;
     margin-bottom: 30px;

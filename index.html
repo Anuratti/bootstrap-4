@@ -51,16 +51,20 @@
         <div class="container">
           <h1 class="display-3">Web < dev /></h1>
           <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p><a class="btn btn-primary btn-lg"  id="btn1" href="#" role="button">Gallery &raquo;</a></p>
+          <p><a class="btn btn-primary btn-lg"  id="btn1" href="#loadbox" role="button">Gallery &raquo;</a></p>
         </div>
       </div>
 
       <div class="container" id="loadbox">
+        <div id="maincon">
+        
         <hr class="featurette-divider">
         <h2 class="featurette-heading">Header. <span class="text-muted">for main content.</span></h2>
 
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eligendi quod autem ut omnis, officia quis laboriosam voluptatibus deleniti nam doloribus tempore fuga assumenda libero beatae perferendis dolores earum est repellat, itaque corporis velit possimus. Odit, maxime eveniet eos, dolorem sed illum cupiditate illo atque animi odio blanditiis esse, fuga nulla provident iusto deserunt perferendis dicta vitae aspernatur assumenda nam adipisci reprehenderit. Necessitatibus vitae a sit quae id earum pariatur omnis, vero modi delectus quam iste corrupti, ex repellendus aperiam! Eius eligendi harum maxime aut voluptatibus adipisci exercitationem nostrum, maiores ex sed vitae obcaecati totam rem impedit ab ducimus eos repellendus cupiditate quis eaque dicta. Non ullam recusandae, alias fugiat reprehenderit cum labore, excepturi fugit officiis quas nostrum doloremque! Hic, pariatur a, praesentium est quidem ipsum consequatur quaerat, officia, accusantium commodi cupiditate fugit dolorum doloribus quae eveniet soluta! Incidunt voluptatem illo esse officiis sed magni facere, nihil odio! Totam assumenda animi enim, labore corrupti molestias. Alias tempore quia ratione, perspiciatis possimus enim odio quaerat repellat ullam. Voluptate quas ab impedit inventore quis vel, facere eos, repudiandae perferendis, error fuga! Quae officiis, rem ad, impedit ea nostrum amet neque praesentium laborum quidem.  </p>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eligendi quod autem ut omnis, officia quis laboriosam voluptatibus deleniti nam doloribus tempore fuga assumenda libero beatae perferendis dolores earum est repellat, itaque corporis velit possimus. Odit, maxime eveniet eos, dolorem sed illum cupiditate illo atque animi odio blanditiis esse, fuga nulla provident iusto deserunt perferendis dicta vitae aspernatur assumenda nam adipisci reprehenderit. Necessitatibus vitae a sit quae id earum pariatur omnis, vero modi delectus quam iste corrupti, ex repellendus aperiam! Eius eligendi harum maxime aut voluptatibus adipisci exercitationem nostrum, maiores ex sed vitae obcaecati totam rem impedit ab ducimus eos repellendus cupiditate quis eaque dicta. Non ullam recusandae, alias fugiat reprehenderit cum labore, excepturi fugit officiis quas nostrum doloremque! Hic, pariatur a, praesentium est quidem ipsum consequatur quaerat, officia, accusantium commodi cupiditate fugit dolorum doloribus quae eveniet soluta! Incidunt voluptatem illo esse officiis sed magni facere, nihil odio! Totam assumenda animi enim, labore corrupti molestias. Alias tempore quia ratione, perspiciatis possimus enim odio quaerat repellat ullam. Voluptate quas ab impedit inventore quis vel, facere eos, repudiandae perferendis, error fuga! Quae officiis, rem ad, impedit ea nostrum amet neque praesentium laborum quidem.  </p></div>
       </div>
+
+      <a id="linkmain" href="#"><p class="page-description text-center">&laquo; Back to main page </p></a>
 
 
 
@@ -193,6 +197,7 @@
 
     <!-- load content jquery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 
 
     <script type="text/javascript">
@@ -202,15 +207,30 @@
              $('#loadbox').load("gallery.html");
             });
              });
-  
+
         </script> 
+
+        
+      <script type="text/javascript">
+        
+           $(document).ready(function(){
+            $("#linkmain").click(function(){
+             $('#loadbox').load("index.html #maincon");
+            });
+             });
+
+        </script> 
+
 
          <!-- Gallery script -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>  
 
       <script type="text/javascript">
+
 	
        </script>
+
+
         
 
     
