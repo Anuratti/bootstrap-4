@@ -9,15 +9,52 @@
     background-attachment:fixed;
     min-height:500px;
 	color:#fff;
-	margin-bottom: 20px; 
+	margin-bottom: 0px; 
 }
 
 #linkmain{
 	display:none;
 }
 
+#ulnav{
+ letter-spacing: 3px;
+}
+
+ul li{
+	padding-left:50px;
+	
+}
+
+ul li a{
+	color:#fff !important;
+}
+
+ul li a{
+	color:#fff !important;
+}
+
+ul li a:hover{
+	color:#037FDF !important;
+}
 
 
+ul li:first-child{
+	padding-left:0px;	
+}
+
+ul li:first-child a{
+	color:#037FDF !important;	
+}
+
+ul li:first-child a:hover{
+	color:#fff !important;	
+}
+
+
+.bg-custom{
+	background-color: #313131 !important;
+}
+	
 
 .jumbotron p{
 	text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
@@ -51,10 +88,44 @@
     text-align: center;
 }
 
+
+
+.labels{
+	margin-top:10px;
+	letter-spacing: 2px;
+	font-weight: 400;
+    line-height: 1.1;
+}
+
+
 .contact{
-	background-color: #000;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-top:20px;
+	background-color: #212121;
+	margin-top: 50px;
+	color:#747474;
+	padding:50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.contact i{
+	padding:10px;
+}
+
+.contact i:hover{
+	color:#fff;
+}
+
+#maincon {
+	padding-top:60px;
+	
+}
+
+#team{
+	padding-top:50px;
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;	
 }

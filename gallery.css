@@ -7,6 +7,8 @@
 
 .gallery-container{
     background-color: #EDEDED;
+    padding-top:2px;
+    
 }
 
 .gallery-container p.page-description {
@@ -21,11 +23,19 @@
 	padding-right:3px;
 }
 
+.row{
+	margin-left: 0;
+	margin-right: 0;	
+}
+
 #linkmain{
 	display:block;
 	margin-top: 10px;
 }
 
+#gallery-header{
+    margin-top:70px;
+}
 
 .tz-gallery .thumbnail {
     padding: 0;
@@ -65,4 +75,9 @@
 
 .text-center{
 	padding-bottom: 10px;
+}
+
+.featurette-divider{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
