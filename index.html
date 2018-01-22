@@ -11,24 +11,22 @@
     <title>web development layout</title>
 
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap  CSS -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
    <link rel="stylesheet" href="css/font-awesome.min.css"> 
 
-
-
-
-    <!-- Custom styles for this template -->
-
+    <!-- custom  CSS -->
+  
     <link rel="stylesheet" href="style.css">
 
   </head>
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-
+  
   <body>
 
+     
+    <!-- navbar -->
     <nav id="navi" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark bg-custom">
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +57,7 @@
 
     <main role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <!-- jumbotron -->
       <div class="jumbotron">
         <div class="container">
           <h1 class="display-3">Web < dev /></h1>
@@ -68,12 +66,13 @@
         </div>
       </div>
        <hr class="featurette-divider">
+         
+         <!-- load content section -->
 
       <div class="container" id="loadbox">
 
         <div id="maincon">
         
-       
         <h2 class="featurette-heading">Web development<span class="text-muted"> - This is what we do</span></h2>
 
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eligendi quod autem ut omnis, officia quis laboriosam voluptatibus deleniti nam doloribus tempore fuga assumenda libero beatae perferendis dolores earum est repellat, itaque corporis velit possimus. Odit, maxime eveniet eos, dolorem sed illum cupiditate illo atque animi odio blanditiis esse, fuga nulla provident iusto deserunt perferendis dicta vitae aspernatur assumenda nam adipisci reprehenderit.</p>
@@ -85,7 +84,7 @@
 
 
 
-        <!-- START THE FEATURETTES -->
+          <!-- section -->
         <div class="container">
 
         <hr class="featurette-divider">
@@ -115,13 +114,11 @@
         
         <hr class="featurette-divider">
 
-        <!-- /END THE FEATURETTES -->
-
         </div> <!-- /container -->
 
-      
+          <!-- Team section -->
           <div class="container marketing" id="team">
-        <!-- Three columns of text below the carousel -->
+    
         <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="img/circle1.png" alt="Generic placeholder image" width="140" height="140">
@@ -145,13 +142,9 @@
             <p><a class="btn btn-primary" href="#" role="button" data-toggle="collapse" data-target=".circle-more-3">more &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-          </div>
+          </div>  <!--/.container marketing -->
 
-     
-
-       
-
-     
+        <!-- Carousel -->
 
       <div class="container">
 
@@ -198,7 +191,7 @@
 </div>
 
 
-        
+        <!-- Contact section -->
         <div class="row contact" id="con">
           <div class="col-lg-4"><div class="row justify-content-center">
           	<p id="gob">go top <i class="fa fa-arrow-up" aria-hidden="true"></i></p></div>
@@ -217,10 +210,6 @@
           </div><!-- /.col-lg-4 -->
       </div>
         </div><!-- /.row -->
-          
-
-   
-
     </main>
 
   
@@ -233,7 +222,6 @@
     <!-- load content jquery -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-
      <script type="text/javascript">
         
            $(document).ready(function(){
@@ -243,22 +231,12 @@
              });
   
      </script> 
-  
-
-
-
 
          <!-- Gallery script -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>  
 
-      <script type="text/javascript">
-
-	
-       </script>
-
-       
-	
-		<script src="jquery.scrollTo.min.js"></script>
+		 <!-- scrollTo script -->
+	<script src="jquery.scrollTo.min.js"></script>
 
 	<script>
 		
@@ -275,20 +253,8 @@
 			$('#contact-link').click(function() { $.scrollTo($('#con'), 2000); });
 			$('#gob').click(function() { $.scrollTo($('body'), 2000); });
 		}
-		
 		);
-		
-		
-	
-	
 	
 	</script>
-
-
-        
-
-    
-
-
   </body>
 </html>
